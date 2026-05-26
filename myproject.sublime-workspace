@@ -1,0 +1,1313 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "basic.c",
+			"settings":
+			{
+				"buffer_size": 4542,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "01  #include <stdio.h>"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"insert",
+					{
+						"characters": "main.c"
+					},
+					"BgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					2,
+					1,
+					"insert",
+					{
+						"characters": "++"
+					},
+					"AgAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n\nsd"
+					},
+					"BAAAAAgAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAADAAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					19,
+					"left_delete",
+					null,
+					"DAAAAAsAAAAAAAAACwAAAAAAAAABAAAAZAoAAAAAAAAACgAAAAAAAAABAAAAcwkAAAAAAAAACQAAAAAAAAABAAAACggAAAAAAAAACAAAAAAAAAABAAAACgcAAAAAAAAABwAAAAAAAAABAAAAKwYAAAAAAAAABgAAAAAAAAABAAAAKwUAAAAAAAAABQAAAAAAAAABAAAAYwQAAAAAAAAABAAAAAAAAAABAAAALgMAAAAAAAAAAwAAAAAAAAABAAAAbgIAAAAAAAAAAgAAAAAAAAABAAAAaQEAAAAAAAAAAQAAAAAAAAABAAAAYQAAAAAAAAAAAAAAAAAAAAABAAAAbQ",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAowMAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					46,
+					2,
+					"left_delete",
+					null,
+					"AgAAAJ8DAAAAAAAAnwMAAAAAAAABAAAANZ4DAAAAAAAAngMAAAAAAAABAAAAMw",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACgAwAAAAAAAKADAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					49,
+					2,
+					"left_delete",
+					null,
+					"AgAAAI8DAAAAAAAAjwMAAAAAAAABAAAANI4DAAAAAAAAjgMAAAAAAAABAAAAMw",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACQAwAAAAAAAJADAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					52,
+					2,
+					"left_delete",
+					null,
+					"AgAAAHYDAAAAAAAAdgMAAAAAAAABAAAAM3UDAAAAAAAAdQMAAAAAAAABAAAAMw",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB3AwAAAAAAAHcDAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					55,
+					2,
+					"left_delete",
+					null,
+					"AgAAAG4DAAAAAAAAbgMAAAAAAAABAAAAMm0DAAAAAAAAbQMAAAAAAAABAAAAMw",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABvAwAAAAAAAG8DAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					58,
+					2,
+					"left_delete",
+					null,
+					"AgAAAE8DAAAAAAAATwMAAAAAAAABAAAAMU4DAAAAAAAATgMAAAAAAAABAAAAMw",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABQAwAAAAAAAFADAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					61,
+					2,
+					"left_delete",
+					null,
+					"AgAAABoDAAAAAAAAGgMAAAAAAAABAAAAMBkDAAAAAAAAGQMAAAAAAAABAAAAMw",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAbAwAAAAAAABsDAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					64,
+					2,
+					"left_delete",
+					null,
+					"AgAAAP8CAAAAAAAA/wIAAAAAAAABAAAAOf4CAAAAAAAA/gIAAAAAAAABAAAAMg",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAwAAAAAAAAADAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					67,
+					2,
+					"left_delete",
+					null,
+					"AgAAAMICAAAAAAAAwgIAAAAAAAABAAAAOMECAAAAAAAAwQIAAAAAAAABAAAAMg",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADDAgAAAAAAAMMCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					70,
+					1,
+					"left_delete",
+					null,
+					"AQAAALkCAAAAAAAAuQIAAAAAAAABAAAAMg",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC6AgAAAAAAALoCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					72,
+					1,
+					"left_delete",
+					null,
+					"AQAAALkCAAAAAAAAuQIAAAAAAAABAAAANw",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC6AgAAAAAAALoCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					75,
+					2,
+					"left_delete",
+					null,
+					"AgAAAKcCAAAAAAAApwIAAAAAAAABAAAANqYCAAAAAAAApgIAAAAAAAABAAAAMg",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACoAgAAAAAAAKgCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					79,
+					2,
+					"left_delete",
+					null,
+					"AgAAAIwCAAAAAAAAjAIAAAAAAAABAAAANYsCAAAAAAAAiwIAAAAAAAABAAAAMg",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACNAgAAAAAAAI0CAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					82,
+					2,
+					"left_delete",
+					null,
+					"AgAAAEICAAAAAAAAQgIAAAAAAAABAAAANEECAAAAAAAAQQIAAAAAAAABAAAAMg",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABDAgAAAAAAAEMCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					86,
+					2,
+					"left_delete",
+					null,
+					"AgAAADICAAAAAAAAMgIAAAAAAAABAAAAMzECAAAAAAAAMQIAAAAAAAABAAAAMg",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAzAgAAAAAAADMCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					94,
+					2,
+					"left_delete",
+					null,
+					"LAAAAAsCAAAAAAAACwIAAAAAAAABAAAAMgMCAAAAAAAAAwIAAAAAAAABAAAAMfABAAAAAAAA8AEAAAAAAAABAAAAMKgBAAAAAAAAqAEAAAAAAAABAAAAOZMBAAAAAAAAkwEAAAAAAAABAAAAOI4BAAAAAAAAjgEAAAAAAAABAAAAN4ABAAAAAAAAgAEAAAAAAAABAAAANmcBAAAAAAAAZwEAAAAAAAABAAAANVQBAAAAAAAAVAEAAAAAAAABAAAANC8BAAAAAAAALwEAAAAAAAABAAAAMyoBAAAAAAAAKgEAAAAAAAABAAAAMiQBAAAAAAAAJAEAAAAAAAABAAAAMRQBAAAAAAAAFAEAAAAAAAABAAAAMAABAAAAAAAAAAEAAAAAAAABAAAAOfgAAAAAAAAA+AAAAAAAAAABAAAAOLEAAAAAAAAAsQAAAAAAAAABAAAAN5QAAAAAAAAAlAAAAAAAAAABAAAANocAAAAAAAAAhwAAAAAAAAABAAAANTYAAAAAAAAANgAAAAAAAAABAAAANDEAAAAAAAAAMQAAAAAAAAABAAAAMxgAAAAAAAAAGAAAAAAAAAABAAAAMgEAAAAAAAAAAQAAAAAAAAABAAAAMfUBAAAAAAAA9QEAAAAAAAABAAAAMu4BAAAAAAAA7gEAAAAAAAABAAAAMtwBAAAAAAAA3AEAAAAAAAABAAAAMpUBAAAAAAAAlQEAAAAAAAABAAAAMYEBAAAAAAAAgQEAAAAAAAABAAAAMX0BAAAAAAAAfQEAAAAAAAABAAAAMXABAAAAAAAAcAEAAAAAAAABAAAAMVgBAAAAAAAAWAEAAAAAAAABAAAAMUYBAAAAAAAARgEAAAAAAAABAAAAMSIBAAAAAAAAIgEAAAAAAAABAAAAMR4BAAAAAAAAHgEAAAAAAAABAAAAMRkBAAAAAAAAGQEAAAAAAAABAAAAMQoBAAAAAAAACgEAAAAAAAABAAAAMfcAAAAAAAAA9wAAAAAAAAABAAAAMPAAAAAAAAAA8AAAAAAAAAABAAAAMKoAAAAAAAAAqgAAAAAAAAABAAAAMI4AAAAAAAAAjgAAAAAAAAABAAAAMIIAAAAAAAAAggAAAAAAAAABAAAAMDIAAAAAAAAAMgAAAAAAAAABAAAAMC4AAAAAAAAALgAAAAAAAAABAAAAMBYAAAAAAAAAFgAAAAAAAAABAAAAMAAAAAAAAAAAAAAAAAAAAAABAAAAMA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAABYAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAMkAZAAAAAAAAABkAAAAAAAAAAAAAAAAAMkAyAAAAAAAAADIAAAAAAAAAAAAAAAAAMkA3AAAAAAAAADcAAAAAAAAAAAAAAAAAMkCIAAAAAAAAAIgAAAAAAAAAAAAAAAAAMkCVAAAAAAAAAJUAAAAAAAAAAAAAAAAAMkCyAAAAAAAAALIAAAAAAAAAAAAAAAAAMkD5AAAAAAAAAPkAAAAAAAAAAAAAAAAAMkABAQAAAAAAAAEBAAAAAAAAAAAAAAAAMkAVAQAAAAAAABUBAAAAAAAAAAAAAAAAMkAlAQAAAAAAACUBAAAAAAAAAAAAAAAAMkArAQAAAAAAACsBAAAAAAAAAAAAAAAAMkAwAQAAAAAAADABAAAAAAAAAAAAAAAAMkBVAQAAAAAAAFUBAAAAAAAAAAAAAAAAMkBoAQAAAAAAAGgBAAAAAAAAAAAAAAAAMkCBAQAAAAAAAIEBAAAAAAAAAAAAAAAAMkCPAQAAAAAAAI8BAAAAAAAAAAAAAAAAMkCUAQAAAAAAAJQBAAAAAAAAAAAAAAAAMkCpAQAAAAAAAKkBAAAAAAAAAAAAAAAAMkDxAQAAAAAAAPEBAAAAAAAAAAAAAAAAMkAEAgAAAAAAAAQCAAAAAAAAAAAAAAAAMkAMAgAAAAAAAAwCAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					99,
+					2,
+					"left_delete",
+					null,
+					"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"
+				],
+				[
+					6,
+					1,
+					"paste_and_indent",
+					null,
+					"AgAAAAAAAAAAAAAAvhEAAAAAAAAAAAAAvhEAAAAAAAC+EQAAAAAAABcDAAAjaW5jbHVkZSA8c3RkaW8uaD4KI2luY2x1ZGUgPHNxbGl0ZTMuaD4KCnN0YXRpYyBpbnQgY2FsbGJhY2sodm9pZCAqTm90VXNlZCwgaW50IGFyZ2MsIGNoYXIgKiphcmd2LCBjaGFyICoqYXpDb2xOYW1lKXsKICBpbnQgaTsKICBmb3IoaT0wOyBpPGFyZ2M7IGkrKyl7CiAgICBwcmludGYoIiVzID0gJXNcbiIsIGF6Q29sTmFtZVtpXSwgYXJndltpXSA/IGFyZ3ZbaV0gOiAiTlVMTCIpOwogIH0KICBwcmludGYoIlxuIik7CiAgcmV0dXJuIDA7Cn0KCmludCBtYWluKGludCBhcmdjLCBjaGFyICoqYXJndil7CiAgc3FsaXRlMyAqZGI7CiAgY2hhciAqekVyck1zZyA9IDA7CiAgaW50IHJjOwoKICBpZiggYXJnYyE9MyApewogICAgZnByaW50ZihzdGRlcnIsICJVc2FnZTogJXMgREFUQUJBU0UgU1FMLVNUQVRFTUVOVFxuIiwgYXJndlswXSk7CiAgICByZXR1cm4oMSk7CiAgfQogIHJjID0gc3FsaXRlM19vcGVuKGFyZ3ZbMV0sICZkYik7CiAgaWYoIHJjICl7CiAgICBmcHJpbnRmKHN0ZGVyciwgIkNhbid0IG9wZW4gZGF0YWJhc2U6ICVzXG4iLCBzcWxpdGUzX2Vycm1zZyhkYikpOwogICAgc3FsaXRlM19jbG9zZShkYik7CiAgICByZXR1cm4oMSk7CiAgfQogIHJjID0gc3FsaXRlM19leGVjKGRiLCBhcmd2WzJdLCBjYWxsYmFjaywgMCwgJnpFcnJNc2cpOwogIGlmKCByYyE9U1FMSVRFX09LICl7CiAgICBmcHJpbnRmKHN0ZGVyciwgIlNRTCBlcnJvcjogJXNcbiIsIHpFcnJNc2cpOwogICAgc3FsaXRlM19mcmVlKHpFcnJNc2cpOwogIH0KICBzcWxpdGUzX2Nsb3NlKGRiKTsKICByZXR1cm4gMDsKfQ",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAXAwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "main.dart",
+			"settings":
+			{
+				"buffer_size": 162,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "void main() async {"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAhwAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"paste",
+					null,
+					"AQAAAGwAAAAAAAAAhQAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAbAAAAAAAAABsAAAAAAAAAAAAAAAAYGpA"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAGwAAAAAAAAAbgAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAbAAAAAAAAABsAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "lib/pubspec.yaml",
+			"settings":
+			{
+				"buffer_size": 75,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "dependencies:"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAASwAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "lib/models/user.dart",
+			"settings":
+			{
+				"buffer_size": 1133,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAbQQAAAAAAAClAQAAY2xhc3MgVXNlciB7CiAgZmluYWwgaW50PyBpZDsKICBmaW5hbCBTdHJpbmcgZW1haWw7CiAgZmluYWwgU3RyaW5nIHJvbGU7CgogIFVzZXIoewogICAgdGhpcy5pZCwKICAgIHJlcXVpcmVkIHRoaXMuZW1haWwsCiAgICByZXF1aXJlZCB0aGlzLnJvbGUsCiAgfSk7CgogIE1hcDxTdHJpbmcsIGR5bmFtaWM+IHRvTWFwKCkgewogICAgcmV0dXJuIHsKICAgICAgJ2lkJzogaWQsCiAgICAgICdlbWFpbCc6IGVtYWlsLAogICAgICAncm9sZSc6IHJvbGUsCiAgICB9OwogIH0KCiAgZmFjdG9yeSBVc2VyLmZyb21NYXAoTWFwPFN0cmluZywgZHluYW1pYz4gbWFwKSB7CiAgICByZXR1cm4gVXNlcigKICAgICAgaWQ6IG1hcFsnaWQnXSwKICAgICAgZW1haWw6IG1hcFsnZW1haWwnXSwKICAgICAgcm9sZTogbWFwWydyb2xlJ10sCiAgICApOwogIH0KfQ",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAClAQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "lib/models/tutor_profile.dart",
+			"settings":
+			{
+				"buffer_size": 1271,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "class TutorProfile {"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAKgQAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"paste",
+					null,
+					"AQAAAMEAAAAAAAAAiAEAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMEAAAAAAAAAwQAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAMEAAAAAAAAAwwAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMEAAAAAAAAAwQAAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					11,
+					1,
+					"left_delete",
+					null,
+					"AQAAAMEAAAAAAAAAwQAAAAAAAAACAAAAICA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMMAAAAAAAAAwwAAAAAAAAAAAAAAAAAyQA"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AwAAAEcBAAAAAAAASQEAAAAAAAAAAAAABQEAAAAAAAAHAQAAAAAAAAAAAADBAAAAAAAAAMMAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAwAAAMEAAAAAAAAAwQAAAAAAAAAAAAAAAADwvwUBAAAAAAAABQEAAAAAAAAAAAAAAAAAAEcBAAAAAAAARwEAAAAAAAAAAAAAAAAAAA"
+				]
+			]
+		},
+		{
+			"file": "lib/models/subject.dart",
+			"settings":
+			{
+				"buffer_size": 337,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "class Subject {"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAUQEAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "lib/models/availability.dart",
+			"settings":
+			{
+				"buffer_size": 711,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "class Availability {"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAxwIAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "lib/test_db.dart",
+			"settings":
+			{
+				"buffer_size": 1640,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "import 'package:flutter/material.dart';"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					3,
+					"left_delete",
+					null,
+					"AgAAAAEAAAAAAAAAAQAAAAAAAAABAAAACgAAAAAAAAAAAAAAAAAAAAABAAAAfQ",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAaAYAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "lib/models/session.dart",
+			"settings":
+			{
+				"buffer_size": 1336,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "class Session {"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAmAQAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"reindent",
+					null,
+					"AQAAAOcAAAAAAAAA6QAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOcAAAAAAAAA5wAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					18,
+					1,
+					"paste",
+					null,
+					"AQAAAOkAAAAAAAAAgwEAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOkAAAAAAAAA6QAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAACABAAAAAAAAIgEAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACABAAAAAAAAIAEAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAFUBAAAAAAAAVwEAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAFUBAAAAAAAAVQEAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		},
+		{
+			"file": "lib/models/message.dart",
+			"settings":
+			{
+				"buffer_size": 782,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "class Message {"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAADgMAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "lib/models/review.dart",
+			"settings":
+			{
+				"buffer_size": 901,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "class Review {"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAhQMAAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "lib/database/database_helper.dart",
+			"settings":
+			{
+				"buffer_size": 7920,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "import 'dart:async';"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAFB4AAAAAAAAAAAAA",
+					"BAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAIENAAAAAAAAgg0AAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIENAAAAAAAAgQ0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					7,
+					1,
+					"left_delete",
+					null,
+					"AQAAAIENAAAAAAAAgQ0AAAAAAAABAAAAIA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIINAAAAAAAAgg0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAIENAAAAAAAAhA0AAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIENAAAAAAAAgQ0AAAAAAAAAAAAAAADwvw"
+				],
+				[
+					9,
+					1,
+					"paste",
+					null,
+					"AQAAAIQNAAAAAAAAXQ4AAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAIQNAAAAAAAAhA0AAAAAAAAAAAAAAADwvw"
+				]
+			]
+		},
+		{
+			"file": "myproject.sublime-project",
+			"settings":
+			{
+				"buffer_size": 333,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					10,
+					1,
+					"paste_and_indent",
+					null,
+					"AQAAAAAAAAAAAAAAHAEAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEA"
+				],
+				[
+					26,
+					1,
+					"left_delete",
+					null,
+					"AQAAAP0AAAAAAAAA/QAAAAAAAAABAAAALg",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD+AAAAAAAAAP4AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					30,
+					1,
+					"",
+					null,
+					"AgAAAP0AAAAAAAAALwEAAAAAAAAAAAAAcAEAAAAAAABwAQAAAAAAADIAAABDOlxcVXNlcnNcXEFfTE9UX29mX1RyYW5zaXN0b3JzXFxEb2N1bWVudHNcXENvZGluZw",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA+AQAAAAAAAHABAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					35,
+					2,
+					"left_delete",
+					null,
+					"AgAAAE4BAAAAAAAATgEAAAAAAAAtAAAACnsKCSJmb2xkZXJzIjoKCVsKCQl7CgkJCSJwYXRoIjogIiIKCQl9CgldCn0KTQEAAAAAAABNAQAAAAAAAAEAAAAK",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB7AQAAAAAAAE4BAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "lib/models/notifications.dart",
+			"settings":
+			{
+				"buffer_size": 235,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "CREATE TABLE notifications ("
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAA6wAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				]
+			]
+		}
+	],
+	"build_system": "Packages/C++/C Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/A_LOT_of_Transistors/Documents/Coding",
+		"/C/Users/A_LOT_of_Transistors/Documents/Coding/C",
+		"/C/Users/A_LOT_of_Transistors/Documents/Coding/C/Studia",
+		"/C/Users/A_LOT_of_Transistors/Documents/Coding/C/Studia/lib",
+		"/C/Users/A_LOT_of_Transistors/Documents/Coding/C/Studia/lib/database",
+		"/C/Users/A_LOT_of_Transistors/Documents/Coding/C/Studia/lib/models"
+	],
+	"file_history":
+	[
+		"/C/Users/A_LOT_of_Transistors/Documents/Coding/C/Studia/models/user.dart",
+		"/C/Users/A_LOT_of_Transistors/Documents/Coding/Python/Arduino_Rom_Writer/main.py",
+		"/C/Users/A_LOT_of_Transistors/Documents/Coding/Python/bubble_Sort/main.py",
+		"/C/Users/A_LOT_of_Transistors/AppData/Roaming/Sublime Text/Packages/User/Python313.sublime-build"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"notificatio",
+			"notification",
+			"notifications"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "basic.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2642,
+								2642
+							]
+						],
+						"settings":
+						{
+							"auto_name": "01  #include <stdio.h>",
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.dart",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								162,
+								162
+							]
+						],
+						"settings":
+						{
+							"auto_name": "void main() async {",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib/pubspec.yaml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 75,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"auto_name": "dependencies:",
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/models/user.dart",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 150.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/models/tutor_profile.dart",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"auto_name": "class TutorProfile {",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/models/subject.dart",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								192
+							]
+						],
+						"settings":
+						{
+							"auto_name": "class Subject {",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "lib/models/availability.dart",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								711,
+								711
+							]
+						],
+						"settings":
+						{
+							"auto_name": "class Availability {",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lib/test_db.dart",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								764,
+								764
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import 'package:flutter/material.dart';",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 456.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "lib/models/session.dart",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								322,
+								334
+							]
+						],
+						"settings":
+						{
+							"auto_name": "class Session {",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "lib/models/message.dart",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								553,
+								554
+							]
+						],
+						"settings":
+						{
+							"auto_name": "class Message {",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "lib/models/review.dart",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								350,
+								350
+							]
+						],
+						"settings":
+						{
+							"auto_name": "class Review {",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "lib/database/database_helper.dart",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3446,
+								3446
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import 'dart:async';",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2297.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "myproject.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								331,
+								331
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "lib/models/notifications.dart",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
+							]
+						],
+						"settings":
+						{
+							"auto_name": "CREATE TABLE notifications (",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 182.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "Packages/C++/C Single File.sublime-build",
+	"project": "myproject.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
