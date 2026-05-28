@@ -1,12 +1,17 @@
-name: Studia
+name: studia
 description: Local tutorlink project
 environment:
-  sdk: '>=3.18.0 <4.0.0'
+  sdk: '>=3.10.0 <4.0.0'
 dependencies:
   flutter:
     sdk: flutter
 
   sqflite: ^2.3.0
   path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
 
 # For information on available attributes, see the documentation.
