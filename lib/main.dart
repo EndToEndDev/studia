@@ -3,6 +3,9 @@
 import 'screens/paypal_checkout_screen.dart';
 import 'screens/stripe_checkout_screen.dart';
 
+// Entrypoint hint for debugging tools that expect a `program` identifier.
+const String program = 'lib/main.dart';
+
 void main() {
   runApp(const MyApp());
 }
