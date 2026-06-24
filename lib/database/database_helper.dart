@@ -238,6 +238,115 @@ class DatabaseHelper {
         .toList();
   }
 
+  Future<User?> getUserByRole(String role) async {
+    final db = await database;
+
+    final result = await db.query(
+      'users',
+      where: 'role = ?',
+      whereArgs: [role],
+      limit: 1,
+    );
+
+    if (result.isEmpty) return null;
+    return User.fromMap(result.first);
+  }
+
+  Future<Subject?> getSubjectByName(String name) async {
+    final db = await database;
+
+    final result = await db.query(
+      'subjects',
+      where: 'name = ?',
+      whereArgs: [name],
+      limit: 1,
+    );
+
+    if (result.isEmpty) return null;
+    return Subject.fromMap(result.first);
+  }
+
+  Future<List<Session>> getSessionsForStudent(int studentId) async {
+    final db = await database;
+
+    final result = await db.query(
+      'sessions',
+      where: 'student_id = ?',
+      whereArgs: [studentId],
+      orderBy: 'start_datetime DESC',
+    );
+
+    return result
+        .map((e) => Session.fromMap(e))
+        .toList();
+  }
+
+  Future<void> initializeSampleData() async {
+    final db = await database;
+
+    final student = await getUserByRole('student');
+    if (student == null) {
+      await createUser(
+        User(
+          id: 1,
+          email: 'student@example.com',
+          passwordHash: 'password',
+          firstName: 'Student',
+          lastName: 'Example',
+          role: 'student',
+        ),
+      );
+    }
+
+    final tutor = await getUserByRole('tutor');
+    if (tutor == null) {
+      await createUser(
+        User(
+          id: 101,
+          email: 'tutor@example.com',
+          passwordHash: 'password',
+          firstName: 'Anna',
+          lastName: 'Kowalska',
+          role: 'tutor',
+        ),
+      );
+    }
+
+    final subject = await getSubjectByName('Mathematics');
+    if (subject == null) {
+      await createSubject(
+        Subject(
+          id: 1,
+          name: 'Mathematics',
+        ),
+      );
+    }
+
+    final profileCount = Sqflite.firstIntValue(
+      await db.rawQuery(
+        'SELECT COUNT(*) FROM tutor_profiles WHERE user_id = ?',
+        [101],
+      ),
+    );
+
+    if (profileCount == 0) {
+      await createTutorProfile(
+        TutorProfile(
+          userId: 101,
+          bio: 'Experienced math tutor helping students of all levels.',
+          hourlyRate: 30.0,
+          yearsExperience: 5,
+          verified: true,
+          avgRating: 4.8,
+          totalReviews: 24,
+          backgroundCheckStatus: 'Completed',
+          backgroundCheckDate: DateTime.now().toIso8601String(),
+          verificationDocument: null,
+        ),
+      );
+    }
+  }
+
   //////////////////////////////////////////////////////
   // TUTOR PROFILE
   //////////////////////////////////////////////////////

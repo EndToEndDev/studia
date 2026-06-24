@@ -4,18 +4,26 @@ import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 import '../config/stripe_config.dart';
+import '../database/database_helper.dart';
+import '../models/session.dart';
 import '../services/stripe_service.dart';
 
 class StripeCheckoutScreen extends StatefulWidget {
   final double amount;
   final String currency;
   final String description;
+  final int studentId;
+  final int tutorId;
+  final int subjectId;
 
   const StripeCheckoutScreen({
     super.key,
     required this.amount,
     required this.currency,
     required this.description,
+    required this.studentId,
+    required this.tutorId,
+    required this.subjectId,
   });
 
   @override
@@ -27,6 +35,7 @@ class _StripeCheckoutScreenState extends State<StripeCheckoutScreen> {
   late final WebViewController _controller;
   String? _errorMessage;
   bool _isLoading = true;
+  bool _isSaving = false;
 
   @override
   void initState() {
@@ -78,7 +87,7 @@ class _StripeCheckoutScreenState extends State<StripeCheckoutScreen> {
     if (uri.origin == Uri.parse(kStripeSuccessUrl).origin &&
         uri.path == Uri.parse(kStripeSuccessUrl).path) {
       if (!mounted) return NavigationDecision.prevent;
-      Navigator.of(context).pop(true);
+      _handleCheckoutSuccess(uri.queryParameters['session_id']);
       return NavigationDecision.prevent;
     }
 
@@ -90,6 +99,61 @@ class _StripeCheckoutScreenState extends State<StripeCheckoutScreen> {
     }
 
     return NavigationDecision.navigate;
+  }
+
+  Future<void> _handleCheckoutSuccess(String? sessionId) async {
+    if (_isSaving) return;
+
+    setState(() {
+      _isSaving = true;
+    });
+
+    try {
+      final session = Session(
+        studentId: widget.studentId,
+        tutorId: widget.tutorId,
+        subjectId: widget.subjectId,
+        startDateTime: DateTime.now().toIso8601String(),
+        endDateTime: DateTime.now().add(const Duration(hours: 1)).toIso8601String(),
+        status: 'booked',
+        notes: widget.description,
+        meetingProvider: 'Stripe',
+        meetingLink: null,
+        meetingId: sessionId,
+      );
+
+      await DatabaseHelper.instance.createSession(session);
+
+      if (!mounted) return;
+      await showDialog<void>(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            title: const Text('Payment Completed'),
+            content: Text(
+              sessionId != null
+                  ? 'Stripe payment succeeded. Session ID: $sessionId'
+                  : 'Stripe payment succeeded.',
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.of(context).pop(),
+                child: const Text('OK'),
+              ),
+            ],
+          );
+        },
+      );
+
+      if (!mounted) return;
+      Navigator.of(context).pop(true);
+    } catch (e) {
+      if (!mounted) return;
+      setState(() {
+        _errorMessage = e.toString();
+        _isSaving = false;
+      });
+    }
   }
 
   @override
@@ -111,7 +175,20 @@ class _StripeCheckoutScreenState extends State<StripeCheckoutScreen> {
                     ),
                   ),
                 )
-              : WebViewWidget(controller: _controller),
+              : Stack(
+                  children: [
+                    WebViewWidget(controller: _controller),
+                    if (_isSaving)
+                      const Positioned.fill(
+                        child: ColoredBox(
+                          color: Colors.black54,
+                          child: Center(
+                            child: CircularProgressIndicator(),
+                          ),
+                        ),
+                      ),
+                  ],
+                ),
     );
   }
 }

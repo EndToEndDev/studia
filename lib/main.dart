@@ -1,12 +1,16 @@
 ﻿import 'package:flutter/material.dart';
 
+import 'database/database_helper.dart';
+import 'screens/booking_history_screen.dart';
 import 'screens/paypal_checkout_screen.dart';
 import 'screens/stripe_checkout_screen.dart';
 
 // Entrypoint hint for debugging tools that expect a `program` identifier.
 const String program = 'lib/main.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await DatabaseHelper.instance.initializeSampleData();
   runApp(const MyApp());
 }
 
