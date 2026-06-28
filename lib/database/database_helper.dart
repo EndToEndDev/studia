@@ -362,6 +362,56 @@ class DatabaseHelper {
     );
   }
 
+  Future<TutorProfile?> getTutorProfile(int tutorId) async {
+    final db = await database;
+
+    final result = await db.query(
+      'tutor_profiles',
+      where: 'user_id = ?',
+      whereArgs: [tutorId],
+    );
+
+    if (result.isEmpty) return null;
+
+    return TutorProfile.fromMap(result.first);
+  }
+
+  Future<List<TutorProfile>> getAllTutorProfiles() async {
+    final db = await database;
+
+    final result = await db.query('tutor_profiles');
+
+    return result
+        .map((e) => TutorProfile.fromMap(e))
+        .toList();
+  }
+
+  Future<int> updateTutorProfile(TutorProfile profile) async {
+    final db = await database;
+
+    return db.update(
+      'tutor_profiles',
+      profile.toMap(),
+      where: 'user_id = ?',
+      whereArgs: [profile.userId],
+    );
+  }
+
+  Future<List<TutorProfile>> getTutorsByBackgroundCheckStatus(
+      String status) async {
+    final db = await database;
+
+    final result = await db.query(
+      'tutor_profiles',
+      where: 'background_check_status = ?',
+      whereArgs: [status],
+    );
+
+    return result
+        .map((e) => TutorProfile.fromMap(e))
+        .toList();
+  }
+
   //////////////////////////////////////////////////////
   // AVAILABILITY
   //////////////////////////////////////////////////////

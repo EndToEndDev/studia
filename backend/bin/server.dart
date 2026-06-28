@@ -78,6 +78,81 @@ void main(List<String> args) async {
     return _responseFromStripe(response);
   });
 
+  // Background Check Management Endpoints
+  app.get('/tutor-profiles', (Request request) {
+    // Mock response - in production this would query the database
+    return _json({
+      'tutors': [
+        {
+          'userId': 101,
+          'bio': 'Experienced math tutor helping students of all levels.',
+          'hourlyRate': 30.0,
+          'yearsExperience': 5,
+          'verified': true,
+          'avgRating': 4.8,
+          'totalReviews': 24,
+          'backgroundCheckStatus': 'Completed',
+          'backgroundCheckDate': DateTime.now().toIso8601String(),
+          'verificationDocument': null,
+        }
+      ]
+    });
+  });
+
+  app.get('/tutor-profiles/<tutorId|[0-9]+>', (Request request, String tutorId) {
+    // Mock response - in production this would query the database
+    final id = int.tryParse(tutorId) ?? 0;
+    return _json({
+      'userId': id,
+      'bio': 'Experienced math tutor helping students of all levels.',
+      'hourlyRate': 30.0,
+      'yearsExperience': 5,
+      'verified': true,
+      'avgRating': 4.8,
+      'totalReviews': 24,
+      'backgroundCheckStatus': 'Completed',
+      'backgroundCheckDate': DateTime.now().toIso8601String(),
+      'verificationDocument': null,
+    });
+  });
+
+  app.post('/tutor-profiles/<tutorId|[0-9]+>/background-check',
+      (Request request, String tutorId) async {
+    final payload = await _readJson(request);
+    final id = int.tryParse(tutorId) ?? 0;
+
+    return _json({
+      'success': true,
+      'message': 'Background check status updated',
+      'tutorId': id,
+      'backgroundCheckStatus': payload['backgroundCheckStatus'] ?? 'Pending',
+      'backgroundCheckDate': DateTime.now().toIso8601String(),
+      'verificationDocument': payload['verificationDocument'],
+    });
+  });
+
+  app.get('/tutor-profiles/background-check/status/<status>',
+      (Request request, String status) {
+    // Mock response - in production this would query by status
+    return _json({
+      'status': status,
+      'tutors': [
+        {
+          'userId': 101,
+          'bio': 'Experienced math tutor helping students of all levels.',
+          'hourlyRate': 30.0,
+          'yearsExperience': 5,
+          'verified': true,
+          'avgRating': 4.8,
+          'totalReviews': 24,
+          'backgroundCheckStatus': status,
+          'backgroundCheckDate': DateTime.now().toIso8601String(),
+          'verificationDocument': null,
+        }
+      ]
+    });
+  });
+
   app.post('/webhook', (Request request) async {
     final signatureHeader = request.headers['stripe-signature'];
     final payload = await request.read().expand((bytes) => bytes).toList();
